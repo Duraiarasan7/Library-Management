@@ -1,27 +1,43 @@
-# Library-Management
-### AIM:
-To study the problem statement, SRS document and draw all the UML diagrams of a Library Management System.
-### PROBLEM STATEMENT:
-To create Library Management System software that will meet the needs of the applicant
-and help them to registering and buy the book for the Library, modification in database and
-cancellation for the registered project.
-### OVERALL DESCRIPTION:
-The Library Management System is an integrated system that has four modules as part of
-it. The four modules are
-#### Registration for Membership:
-In this module, the user can select the books to register for the library,Modification in the book
-database, cancelling the books.
-#### Book details:
-In this module the user can search for the books by giving bookie in the project and selecting
-the semester for the book.
-Maintaining Book Details:
-In this module the administrator can change the data’s like the semester, address, books can be
-done.
-#### Cancellation for the Book:
-In this module the user can cancel their name which is registered for the Book.
-### SOFTWARE REQUIRMENTS:
-Star UML
-### UML Diagrams:
+# Exp - 2 LIBRARY MANAGEMENT SYSTEM
 
-### RESULT:
-Thus the Library management system project was executed and the output was verified.
+# AIM:
+To study the problem statement and SRS of a Library Management System and represent its architecture using UML diagrams.
+# SRS (Procedure):
+```
+Analyze the Library Management System and model its components through the following UML diagrams:
+1.Use Case Diagram – Identifies actors (e.g., Librarian, Member) and system functionalities (e.g., Search Book, Issue Book, Return Book, Pay Fine).
+2.Class Diagram – Represents system classes, attributes, operations, and relationships.
+3.Activity Diagram – Describes the dynamic flow of activities such as book issuing and returning.
+4.Sequence Diagram – Illustrates object interactions in time sequence for specific processes like book issuance.
+5.Communication Diagram – Depicts object collaborations based on interactions.
+6.Package Diagram – Organizes classes and components into packages for modular structure.
+```
+# DIAGRAMS:
+
+## USE CASE DIAGRAM
+
+![image](https://github.com/user-attachments/assets/2332168e-6fdf-4bc2-b894-a36e611ad53f)
+
+## CLASS DIAGRAM
+
+![image](https://github.com/user-attachments/assets/8afdb011-4fbd-49d4-8a79-3c53772f3bbe)
+
+## ACTIVITY DIAGRAM
+
+![image](https://github.com/user-attachments/assets/39cb4dbc-4c5e-4261-af1d-868b5f4ac66d)
+
+## COMMUNICATION DIAGRAM
+
+![image](https://github.com/user-attachments/assets/1682f92c-3acd-4fa5-9df7-124cde4a1402)
+
+## PACKAGE DIAGRAM
+
+![image](https://github.com/user-attachments/assets/e4c3b466-1178-473b-9c81-843938043203)
+
+## SEQUENCE DIAGRAM
+
+![image](https://github.com/user-attachments/assets/f32ee352-ce9a-4510-9b22-54a9e04b12f7)
+
+
+# RESULT:
+The UML diagrams for the Library Management System were successfully designed, effectively representing the system’s structure and behavior.
